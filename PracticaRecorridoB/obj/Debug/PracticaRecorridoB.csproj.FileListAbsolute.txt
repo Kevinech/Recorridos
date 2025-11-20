@@ -1,0 +1,16 @@
+C:\Users\inmo\Desktop\ProgramacionEstructurada\PracticaRecorridoB\PracticaRecorridoB\bin\Debug\PracticaRecorridoB.exe.config
+C:\Users\inmo\Desktop\ProgramacionEstructurada\PracticaRecorridoB\PracticaRecorridoB\bin\Debug\PracticaRecorridoB.exe
+C:\Users\inmo\Desktop\ProgramacionEstructurada\PracticaRecorridoB\PracticaRecorridoB\bin\Debug\PracticaRecorridoB.pdb
+C:\Users\inmo\Desktop\ProgramacionEstructurada\PracticaRecorridoB\PracticaRecorridoB\bin\Debug\MetroFramework.Design.dll
+C:\Users\inmo\Desktop\ProgramacionEstructurada\PracticaRecorridoB\PracticaRecorridoB\bin\Debug\MetroFramework.dll
+C:\Users\inmo\Desktop\ProgramacionEstructurada\PracticaRecorridoB\PracticaRecorridoB\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\inmo\Desktop\ProgramacionEstructurada\PracticaRecorridoB\PracticaRecorridoB\obj\Debug\PracticaRecorridoB.csproj.AssemblyReference.cache
+C:\Users\inmo\Desktop\ProgramacionEstructurada\PracticaRecorridoB\PracticaRecorridoB\obj\Debug\PracticaRecorridoB.Properties.Resources.resources
+C:\Users\inmo\Desktop\ProgramacionEstructurada\PracticaRecorridoB\PracticaRecorridoB\obj\Debug\PracticaRecorridoB.csproj.GenerateResource.cache
+C:\Users\inmo\Desktop\ProgramacionEstructurada\PracticaRecorridoB\PracticaRecorridoB\obj\Debug\PracticaRecorridoB.csproj.CoreCompileInputs.cache
+C:\Users\inmo\Desktop\ProgramacionEstructurada\PracticaRecorridoB\PracticaRecorridoB\obj\Debug\Practica.5B665AB9.Up2Date
+C:\Users\inmo\Desktop\ProgramacionEstructurada\PracticaRecorridoB\PracticaRecorridoB\obj\Debug\PracticaRecorridoB.exe
+C:\Users\inmo\Desktop\ProgramacionEstructurada\PracticaRecorridoB\PracticaRecorridoB\obj\Debug\PracticaRecorridoB.pdb
+C:\Users\inmo\Desktop\ProgramacionEstructurada\PracticaRecorridoB\PracticaRecorridoB\obj\Debug\PracticaRecorridoB.exe.config
+C:\Users\inmo\Desktop\ProgramacionEstructurada\PracticaRecorridoB\PracticaRecorridoB\obj\Debug\PracticaRecorridoB.forms.FrmBusquedaB.resources
+C:\Users\inmo\Desktop\ProgramacionEstructurada\PracticaRecorridoB\PracticaRecorridoB\obj\Debug\PracticaRecorridoB.FrmBusquedaL.resources
