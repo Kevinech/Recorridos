@@ -30,12 +30,12 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.lbNumeros = new System.Windows.Forms.ListBox();
             this.btnGenerarN = new System.Windows.Forms.Button();
+            this.lbNumeros = new System.Windows.Forms.ListBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.btnBuscarN = new System.Windows.Forms.Button();
-            this.tbBuscar = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.tbBuscar = new System.Windows.Forms.TextBox();
+            this.btnBuscarN = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -59,15 +59,6 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Generar numeros aleatorios";
             // 
-            // lbNumeros
-            // 
-            this.lbNumeros.FormattingEnabled = true;
-            this.lbNumeros.ItemHeight = 20;
-            this.lbNumeros.Location = new System.Drawing.Point(21, 134);
-            this.lbNumeros.Name = "lbNumeros";
-            this.lbNumeros.Size = new System.Drawing.Size(357, 304);
-            this.lbNumeros.TabIndex = 0;
-            // 
             // btnGenerarN
             // 
             this.btnGenerarN.Location = new System.Drawing.Point(21, 85);
@@ -77,6 +68,15 @@
             this.btnGenerarN.Text = "numeros aleatorios";
             this.btnGenerarN.UseVisualStyleBackColor = true;
             this.btnGenerarN.Click += new System.EventHandler(this.btnGenerarN_Click);
+            // 
+            // lbNumeros
+            // 
+            this.lbNumeros.FormattingEnabled = true;
+            this.lbNumeros.ItemHeight = 20;
+            this.lbNumeros.Location = new System.Drawing.Point(21, 134);
+            this.lbNumeros.Name = "lbNumeros";
+            this.lbNumeros.Size = new System.Drawing.Size(357, 304);
+            this.lbNumeros.TabIndex = 0;
             // 
             // groupBox2
             // 
@@ -90,6 +90,22 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Busqueda";
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(67, 63);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(202, 20);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Ingrese el número a buscar";
+            // 
+            // tbBuscar
+            // 
+            this.tbBuscar.Location = new System.Drawing.Point(50, 96);
+            this.tbBuscar.Name = "tbBuscar";
+            this.tbBuscar.Size = new System.Drawing.Size(275, 26);
+            this.tbBuscar.TabIndex = 1;
+            // 
             // btnBuscarN
             // 
             this.btnBuscarN.Location = new System.Drawing.Point(50, 170);
@@ -100,23 +116,7 @@
             this.btnBuscarN.UseVisualStyleBackColor = true;
             this.btnBuscarN.Click += new System.EventHandler(this.btnBuscarN_Click);
             // 
-            // tbBuscar
-            // 
-            this.tbBuscar.Location = new System.Drawing.Point(50, 96);
-            this.tbBuscar.Name = "tbBuscar";
-            this.tbBuscar.Size = new System.Drawing.Size(275, 26);
-            this.tbBuscar.TabIndex = 1;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(67, 63);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(202, 20);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Ingrese el número a buscar";
-            // 
-            // BusquedaLineal
+            // FrmBusquedaL
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -126,7 +126,7 @@
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Name = "BusquedaLineal";
+            this.Name = "FrmBusquedaL";
             this.Text = "Busqueda lineal";
             this.groupBox1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);

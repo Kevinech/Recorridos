@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PracticaRecorridoB.forms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,24 +13,27 @@ namespace PracticaRecorridoB
 {
     public partial class FrmBusquedaL : MetroFramework.Forms.MetroForm
     {
+
+        
+        
+        int[] arreglo = new int[20];
+        Random random = new Random();
+
+
+
         public FrmBusquedaL()
         {
             InitializeComponent();
         }
-
-
-        int[] arreglo = new int[20];
 
         
         private void btnGenerarN_Click(object sender, EventArgs e)
         {
             lbNumeros.Items.Clear();
 
-            Random random = new Random();
-
-            for (int i = 0; i < 20; i++)
+            for (int i = 0; i < arreglo.Length; i++)
             {
-                arreglo[i] = random.Next(1, 20);
+                arreglo[i] = random.Next(1, 21);
 
                 lbNumeros.Items.Add(arreglo[i]);
             }
@@ -64,7 +68,7 @@ namespace PracticaRecorridoB
                 MessageBox.Show("El número no existe en el arreglo.");
         }
 
-
+        
     }
     
 }

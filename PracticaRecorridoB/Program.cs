@@ -17,7 +17,7 @@ namespace PracticaRecorridoB
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmBusquedaB());
+            Application.Run(new FrmInicio());
         }
     }
 }
