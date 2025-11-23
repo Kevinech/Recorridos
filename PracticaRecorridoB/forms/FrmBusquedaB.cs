@@ -15,12 +15,15 @@ namespace PracticaRecorridoB.forms
 
         private List<int> lista = new List<int>();
         private Random rand = new Random();
+        
 
 
 
         public FrmBusquedaB()
         {
             InitializeComponent();
+
+
         }
 
         
@@ -83,32 +86,31 @@ namespace PracticaRecorridoB.forms
             rtbResultado.Clear();
             bool encontrado = false;
 
-            while(inicio <= fin)
+            while (inicio <= fin)
             {
                 int mitad = (inicio + fin) / 2;
                 int vMitad = lista[mitad];
-
 
                 rtbResultado.SelectionColor = Color.Blue;
                 rtbResultado.AppendText($"Buscando entre índices {inicio} y {fin}, mitad {mitad} (valor {vMitad})\n");
 
                 if (vMitad == numBuscar)
                 {
-                    rtbResultado.SelectionColor = System.Drawing.Color.Green;
-                    rtbResultado.AppendText($"Buscando entre índices {inicio} y {fin}, mitad {mitad} (valor {vMitad})\n");
+                    rtbResultado.SelectionColor = Color.Green;
+                    rtbResultado.AppendText($"Número {numBuscar} encontrado en la posición {mitad}.\n");
+                    encontrado = true;
+                    // Aquí colocamos el break para terminar el ciclo
+                    break;
                 }
                 else if (vMitad < numBuscar)
                 {
-
                     inicio = mitad + 1;
-
-
                 }
                 else
                 {
                     fin = mitad - 1;
                 }
-
+            
             }
 
             if (!encontrado)
