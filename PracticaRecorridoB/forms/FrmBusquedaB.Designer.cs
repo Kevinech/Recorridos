@@ -36,17 +36,19 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btnBuscar = new System.Windows.Forms.Button();
             this.btnOrdenar = new System.Windows.Forms.Button();
+            this.rtbResultado = new System.Windows.Forms.RichTextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.rtbResultado);
             this.groupBox1.Controls.Add(this.btnGenerarN);
             this.groupBox1.Controls.Add(this.lbNumero);
             this.groupBox1.Location = new System.Drawing.Point(33, 95);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(403, 413);
+            this.groupBox1.Size = new System.Drawing.Size(680, 413);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Generar lista de numeros aleatorios";
@@ -76,7 +78,7 @@
             this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Controls.Add(this.btnBuscar);
             this.groupBox2.Controls.Add(this.btnOrdenar);
-            this.groupBox2.Location = new System.Drawing.Point(442, 169);
+            this.groupBox2.Location = new System.Drawing.Point(719, 186);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(310, 247);
             this.groupBox2.TabIndex = 1;
@@ -107,6 +109,7 @@
             this.btnBuscar.TabIndex = 3;
             this.btnBuscar.Text = "Buscar";
             this.btnBuscar.UseVisualStyleBackColor = true;
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
             // btnOrdenar
             // 
@@ -117,6 +120,16 @@
             this.btnOrdenar.Text = "Ordenar ";
             this.btnOrdenar.UseVisualStyleBackColor = true;
             this.btnOrdenar.Click += new System.EventHandler(this.btnOrdenar_Click);
+            // 
+            // rtbResultado
+            // 
+            this.rtbResultado.Location = new System.Drawing.Point(398, 114);
+            this.rtbResultado.Name = "rtbResultado";
+            this.rtbResultado.ReadOnly = true;
+            this.rtbResultado.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
+            this.rtbResultado.Size = new System.Drawing.Size(263, 284);
+            this.rtbResultado.TabIndex = 2;
+            this.rtbResultado.Text = "";
             // 
             // FrmBusquedaB
             // 
@@ -147,5 +160,6 @@
         private System.Windows.Forms.Button btnOrdenar;
         private System.Windows.Forms.TextBox tbBuscarN;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.RichTextBox rtbResultado;
     }
 }

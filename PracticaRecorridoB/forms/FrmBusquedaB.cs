@@ -12,45 +12,114 @@ namespace PracticaRecorridoB.forms
 {
     public partial class FrmBusquedaB : MetroFramework.Forms.MetroForm
     {
+
+        private List<int> lista = new List<int>();
+        private Random rand = new Random();
+
+
+
         public FrmBusquedaB()
         {
             InitializeComponent();
         }
 
-        List<int> numerosOr = new List<int>();
-        int[] arreglo = new int[30];
+        
 
         private void btnGenerarN_Click(object sender, EventArgs e)
         {
+
+            lista.Clear();
+
+
+            for (int i = 0; i < 30; i++)
+            {
+                lista.Add(rand.Next(1, 101));
+            }
+
             lbNumero.Items.Clear();
+            foreach (var num in lista)
+            {
+                lbNumero.Items.Add(num);
+            }
+            
+           
 
-            Random numeroA = new Random();
 
+        }
 
-            for (int i = 0; i < arreglo.Length; i++)
+       
+        private void btnOrdenar_Click(object sender, EventArgs e)
+        {
+
+            lista.Sort();
+
+            lbNumero.Items.Clear();
+            foreach (var num in lista)
             {
 
-                arreglo[i] = numeroA.Next(0, 30);
-                numerosOr.Add(arreglo[i]);
-                lbNumero.Items.Add(arreglo[i]);
+                lbNumero.Items.Add(num);
 
 
             }
-            
+
 
 
 
         }
 
-        private void btnOrdenar_Click(object sender, EventArgs e)
+        private void btnBuscar_Click(object sender, EventArgs e)
         {
 
+            int numBuscar;
 
-            lbNumero.Items.Clear();
-            numerosOr.Sort();
-            lbNumero.Items.Add(numerosOr);
+            if (!int.TryParse(tbBuscarN.Text, out numBuscar))
+            {
+                MessageBox.Show("Ingrese un numero entero");
+            }
+
+
+            int inicio = 0;
+            int fin = lista.Count - 1;
+            rtbResultado.Clear();
+            bool encontrado = false;
+
+            while(inicio <= fin)
+            {
+                int mitad = (inicio + fin) / 2;
+                int vMitad = lista[mitad];
+
+
+                rtbResultado.SelectionColor = Color.Blue;
+                rtbResultado.AppendText($"Buscando entre índices {inicio} y {fin}, mitad {mitad} (valor {vMitad})\n");
+
+                if (vMitad == numBuscar)
+                {
+                    rtbResultado.SelectionColor = System.Drawing.Color.Green;
+                    rtbResultado.AppendText($"Buscando entre índices {inicio} y {fin}, mitad {mitad} (valor {vMitad})\n");
+                }
+                else if (vMitad < numBuscar)
+                {
+
+                    inicio = mitad + 1;
+
+
+                }
+                else
+                {
+                    fin = mitad - 1;
+                }
+
+            }
+
+            if (!encontrado)
+            {
+                rtbResultado.SelectionColor = System.Drawing.Color.Red;
+                rtbResultado.AppendText($"Número {numBuscar} no se encontró en la lista.");
+
+            }
+            rtbResultado.ScrollToCaret();
+
             
-
 
 
         }
