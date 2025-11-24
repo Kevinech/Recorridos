@@ -52,18 +52,110 @@ namespace PracticaRecorridoB.forms
         private void btnBuscar_Click(object sender, EventArgs e)
         {
 
-            string nombreE = tbNombreE.Text;
+            string buscarNombre = tbNombreE.Text.Trim();
+            if (string.IsNullOrWhiteSpace(buscarNombre))
+            {
+                MessageBox.Show("Debe ingresar un nombre.", "Error");
+                return;
+            }
+
+            // Ordenar la lista por nombre antes de buscar
+            listEstudiantes = listEstudiantes.OrderBy(est => est.Nombre).ToList();
+
+            int inicio = 0;
+            int fin = listEstudiantes.Count - 1;
+            Estudiantes resultado = null;
+
+            while (inicio <= fin)
+            {
+                int mid = (inicio + fin) / 2;
+                int cmp = string.Compare(listEstudiantes[mid].Nombre, buscarNombre, StringComparison.OrdinalIgnoreCase);
+
+                if (cmp == 0)
+                {
+                    resultado = listEstudiantes[mid];
+                    break;
+                }
+                else if (cmp < 0)
+                {
+                    inicio = mid + 1;
+                }
+                else
+                {
+                    fin = mid - 1;
+                }
+            }
+
+            if (resultado != null)
+            {
+                rtbMostrarR.SelectionColor = Color.Green;
+                rtbMostrarR.AppendText("Estudiante encontrado\n");
+                rtbMostrarR.AppendText($"Nombre: {resultado.Nombre}\nID: {resultado.Id}\n");
 
 
+            }
+            else
+            {
 
+                rtbMostrarR.SelectionColor = Color.Red;
+                rtbMostrarR.AppendText("Estudiante no encontrado\n");
 
-
+            }
+               
+            
         }
+
+        private void btnBuscarI_Click(object sender, EventArgs e)
+        {
+
+
+            string buscarId = tbIdEstudiante.Text.Trim();
+            if (string.IsNullOrWhiteSpace(buscarId))
+            {
+                MessageBox.Show("Debe ingresar un Id.", "Error");
+                return;
+            }
+
+            Estudiantes resultado = null;
+
+            foreach (var est in listEstudiantes)
+            {
+                if (est.Id == buscarId)
+                {
+                    resultado = est;
+                    break;
+                }
+            }
+
+            if (resultado != null)
+            {
+                rtbMostrarR.SelectionColor = Color.Green;
+                rtbMostrarR.AppendText("Estudiante encontrado\n");
+                rtbMostrarR.AppendText($"Nombre: {resultado.Nombre}\nID: {resultado.Id}\n");
+
+
+            }
+            else
+            {
+
+                rtbMostrarR.SelectionColor = Color.Red;
+                rtbMostrarR.AppendText("Estudiante no encontrado\n");
+
+            }
+        }
+
+
+
+
+
+
     }
+}
+
 
     
 
 
 
 
-}
+

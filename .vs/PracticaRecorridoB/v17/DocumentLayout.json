@@ -9,18 +9,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{88402DE4-B4C9-4158-AB2B-63031F65CE8A}|PracticaRecorridoB\\PracticaRecorridoB.csproj|c:\\users\\inmo\\desktop\\programacionestructurada\\practicarecorridob\\practicarecorridob\\forms\\frmbusquedaob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{88402DE4-B4C9-4158-AB2B-63031F65CE8A}|PracticaRecorridoB\\PracticaRecorridoB.csproj|solutionrelative:practicarecorridob\\forms\\frmbusquedaob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88402DE4-B4C9-4158-AB2B-63031F65CE8A}|PracticaRecorridoB\\PracticaRecorridoB.csproj|c:\\users\\inmo\\desktop\\programacionestructurada\\practicarecorridob\\practicarecorridob\\forms\\frminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88402DE4-B4C9-4158-AB2B-63031F65CE8A}|PracticaRecorridoB\\PracticaRecorridoB.csproj|solutionrelative:practicarecorridob\\forms\\frminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88402DE4-B4C9-4158-AB2B-63031F65CE8A}|PracticaRecorridoB\\PracticaRecorridoB.csproj|c:\\users\\inmo\\desktop\\programacionestructurada\\practicarecorridob\\practicarecorridob\\forms\\frminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{88402DE4-B4C9-4158-AB2B-63031F65CE8A}|PracticaRecorridoB\\PracticaRecorridoB.csproj|solutionrelative:practicarecorridob\\forms\\frminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88402DE4-B4C9-4158-AB2B-63031F65CE8A}|PracticaRecorridoB\\PracticaRecorridoB.csproj|c:\\users\\inmo\\desktop\\programacionestructurada\\practicarecorridob\\practicarecorridob\\clases\\estudiantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88402DE4-B4C9-4158-AB2B-63031F65CE8A}|PracticaRecorridoB\\PracticaRecorridoB.csproj|solutionrelative:practicarecorridob\\clases\\estudiantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,16 +42,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Estudiantes.cs",
-              "DocumentMoniker": "C:\\Users\\inmo\\Desktop\\ProgramacionEstructurada\\PracticaRecorridoB\\PracticaRecorridoB\\Clases\\Estudiantes.cs",
-              "RelativeDocumentMoniker": "PracticaRecorridoB\\Clases\\Estudiantes.cs",
-              "ToolTip": "C:\\Users\\inmo\\Desktop\\ProgramacionEstructurada\\PracticaRecorridoB\\PracticaRecorridoB\\Clases\\Estudiantes.cs",
-              "RelativeToolTip": "PracticaRecorridoB\\Clases\\Estudiantes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "FrmBusquedaOb.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\inmo\\Desktop\\ProgramacionEstructurada\\PracticaRecorridoB\\PracticaRecorridoB\\forms\\FrmBusquedaOb.cs",
+              "RelativeDocumentMoniker": "PracticaRecorridoB\\forms\\FrmBusquedaOb.cs",
+              "ToolTip": "C:\\Users\\inmo\\Desktop\\ProgramacionEstructurada\\PracticaRecorridoB\\PracticaRecorridoB\\forms\\FrmBusquedaOb.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "PracticaRecorridoB\\forms\\FrmBusquedaOb.cs [Dise\u00F1o]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T03:36:26.318Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T03:54:30.679Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
@@ -73,47 +60,10 @@
               "RelativeDocumentMoniker": "PracticaRecorridoB\\forms\\FrmBusquedaOb.cs",
               "ToolTip": "C:\\Users\\inmo\\Desktop\\ProgramacionEstructurada\\PracticaRecorridoB\\PracticaRecorridoB\\forms\\FrmBusquedaOb.cs*",
               "RelativeToolTip": "PracticaRecorridoB\\forms\\FrmBusquedaOb.cs*",
-              "ViewState": "AgIAABcAAAAAAAAAAAAgwCwAAABmAAAAAAAAAA==",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAUwGQAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-24T03:26:35.181Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FrmBusquedaOb.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\inmo\\Desktop\\ProgramacionEstructurada\\PracticaRecorridoB\\PracticaRecorridoB\\forms\\FrmBusquedaOb.cs",
-              "RelativeDocumentMoniker": "PracticaRecorridoB\\forms\\FrmBusquedaOb.cs",
-              "ToolTip": "C:\\Users\\inmo\\Desktop\\ProgramacionEstructurada\\PracticaRecorridoB\\PracticaRecorridoB\\forms\\FrmBusquedaOb.cs [Dise\u00F1o]*",
-              "RelativeToolTip": "PracticaRecorridoB\\forms\\FrmBusquedaOb.cs [Dise\u00F1o]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T03:22:20.791Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FrmInicio.cs",
-              "DocumentMoniker": "C:\\Users\\inmo\\Desktop\\ProgramacionEstructurada\\PracticaRecorridoB\\PracticaRecorridoB\\forms\\FrmInicio.cs",
-              "RelativeDocumentMoniker": "PracticaRecorridoB\\forms\\FrmInicio.cs",
-              "ToolTip": "C:\\Users\\inmo\\Desktop\\ProgramacionEstructurada\\PracticaRecorridoB\\PracticaRecorridoB\\forms\\FrmInicio.cs",
-              "RelativeToolTip": "PracticaRecorridoB\\forms\\FrmInicio.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAswB4AAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T02:44:33.034Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FrmInicio.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\inmo\\Desktop\\ProgramacionEstructurada\\PracticaRecorridoB\\PracticaRecorridoB\\forms\\FrmInicio.cs",
-              "RelativeDocumentMoniker": "PracticaRecorridoB\\forms\\FrmInicio.cs",
-              "ToolTip": "C:\\Users\\inmo\\Desktop\\ProgramacionEstructurada\\PracticaRecorridoB\\PracticaRecorridoB\\forms\\FrmInicio.cs [Dise\u00F1o]",
-              "RelativeToolTip": "PracticaRecorridoB\\forms\\FrmInicio.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T23:27:24.611Z",
-              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }
