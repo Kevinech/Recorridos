@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\inmo\\Desktop\\ProgramacionEstructurada\\PracticaRecorridoB\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{88402DE4-B4C9-4158-AB2B-63031F65CE8A}|PracticaRecorridoB\\PracticaRecorridoB.csproj|c:\\users\\inmo\\desktop\\programacionestructurada\\practicarecorridob\\practicarecorridob\\forms\\frmbusquedaob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88402DE4-B4C9-4158-AB2B-63031F65CE8A}|PracticaRecorridoB\\PracticaRecorridoB.csproj|solutionrelative:practicarecorridob\\forms\\frmbusquedaob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{88402DE4-B4C9-4158-AB2B-63031F65CE8A}|PracticaRecorridoB\\PracticaRecorridoB.csproj|c:\\users\\inmo\\desktop\\programacionestructurada\\practicarecorridob\\practicarecorridob\\forms\\frmbusquedaob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{88402DE4-B4C9-4158-AB2B-63031F65CE8A}|PracticaRecorridoB\\PracticaRecorridoB.csproj|solutionrelative:practicarecorridob\\forms\\frmbusquedaob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88402DE4-B4C9-4158-AB2B-63031F65CE8A}|PracticaRecorridoB\\PracticaRecorridoB.csproj|c:\\users\\inmo\\desktop\\programacionestructurada\\practicarecorridob\\practicarecorridob\\forms\\frmbusquedaob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88402DE4-B4C9-4158-AB2B-63031F65CE8A}|PracticaRecorridoB\\PracticaRecorridoB.csproj|solutionrelative:practicarecorridob\\forms\\frmbusquedaob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -41,26 +41,30 @@
               "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "FrmBusquedaOb.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\inmo\\Desktop\\ProgramacionEstructurada\\PracticaRecorridoB\\PracticaRecorridoB\\forms\\FrmBusquedaOb.cs",
               "RelativeDocumentMoniker": "PracticaRecorridoB\\forms\\FrmBusquedaOb.cs",
-              "ToolTip": "C:\\Users\\inmo\\Desktop\\ProgramacionEstructurada\\PracticaRecorridoB\\PracticaRecorridoB\\forms\\FrmBusquedaOb.cs [Dise\u00F1o]*",
-              "RelativeToolTip": "PracticaRecorridoB\\forms\\FrmBusquedaOb.cs [Dise\u00F1o]*",
+              "ToolTip": "C:\\Users\\inmo\\Desktop\\ProgramacionEstructurada\\PracticaRecorridoB\\PracticaRecorridoB\\forms\\FrmBusquedaOb.cs [Dise\u00F1o]",
+              "RelativeToolTip": "PracticaRecorridoB\\forms\\FrmBusquedaOb.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-24T03:54:30.679Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "FrmBusquedaOb.cs",
               "DocumentMoniker": "C:\\Users\\inmo\\Desktop\\ProgramacionEstructurada\\PracticaRecorridoB\\PracticaRecorridoB\\forms\\FrmBusquedaOb.cs",
               "RelativeDocumentMoniker": "PracticaRecorridoB\\forms\\FrmBusquedaOb.cs",
-              "ToolTip": "C:\\Users\\inmo\\Desktop\\ProgramacionEstructurada\\PracticaRecorridoB\\PracticaRecorridoB\\forms\\FrmBusquedaOb.cs*",
-              "RelativeToolTip": "PracticaRecorridoB\\forms\\FrmBusquedaOb.cs*",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAUwGQAAABCAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\inmo\\Desktop\\ProgramacionEstructurada\\PracticaRecorridoB\\PracticaRecorridoB\\forms\\FrmBusquedaOb.cs",
+              "RelativeToolTip": "PracticaRecorridoB\\forms\\FrmBusquedaOb.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAYwI8AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-24T03:26:35.181Z",
               "EditorCaption": ""
