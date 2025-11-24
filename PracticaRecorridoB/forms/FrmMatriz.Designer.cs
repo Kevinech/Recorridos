@@ -34,7 +34,7 @@
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.btnGenerarMatriz = new System.Windows.Forms.Button();
             this.btnBuscarN = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tbbuscarN = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMatriz)).BeginInit();
@@ -74,7 +74,7 @@
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.label1);
-            this.groupBox2.Controls.Add(this.textBox1);
+            this.groupBox2.Controls.Add(this.tbbuscarN);
             this.groupBox2.Controls.Add(this.btnBuscarN);
             this.groupBox2.Controls.Add(this.btnGenerarMatriz);
             this.groupBox2.Location = new System.Drawing.Point(608, 72);
@@ -102,13 +102,14 @@
             this.btnBuscarN.TabIndex = 2;
             this.btnBuscarN.Text = "Buscar número";
             this.btnBuscarN.UseVisualStyleBackColor = true;
+            this.btnBuscarN.Click += new System.EventHandler(this.btnBuscarN_Click);
             // 
-            // textBox1
+            // tbbuscarN
             // 
-            this.textBox1.Location = new System.Drawing.Point(22, 183);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(426, 26);
-            this.textBox1.TabIndex = 3;
+            this.tbbuscarN.Location = new System.Drawing.Point(22, 183);
+            this.tbbuscarN.Name = "tbbuscarN";
+            this.tbbuscarN.Size = new System.Drawing.Size(426, 26);
+            this.tbbuscarN.TabIndex = 3;
             // 
             // label1
             // 
@@ -146,7 +147,7 @@
         private System.Windows.Forms.DataGridView dgvMatriz;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox tbbuscarN;
         private System.Windows.Forms.Button btnBuscarN;
         private System.Windows.Forms.Button btnGenerarMatriz;
     }
