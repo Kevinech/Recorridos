@@ -104,12 +104,14 @@
             this.búsquedaDelValorMáximoYMínimoEnUnaListaDeEnterosToolStripMenuItem.Name = "búsquedaDelValorMáximoYMínimoEnUnaListaDeEnterosToolStripMenuItem";
             this.búsquedaDelValorMáximoYMínimoEnUnaListaDeEnterosToolStripMenuItem.Size = new System.Drawing.Size(298, 20);
             this.búsquedaDelValorMáximoYMínimoEnUnaListaDeEnterosToolStripMenuItem.Text = "Búsqueda del valor máx y mín en una lista de enteros";
+            this.búsquedaDelValorMáximoYMínimoEnUnaListaDeEnterosToolStripMenuItem.Click += new System.EventHandler(this.búsquedaDelValorMáximoYMínimoEnUnaListaDeEnterosToolStripMenuItem_Click);
             // 
             // busquedaEnMatriz2DToolStripMenuItem
             // 
             this.busquedaEnMatriz2DToolStripMenuItem.Name = "busquedaEnMatriz2DToolStripMenuItem";
             this.busquedaEnMatriz2DToolStripMenuItem.Size = new System.Drawing.Size(140, 20);
             this.busquedaEnMatriz2DToolStripMenuItem.Text = "Busqueda en matriz 2D";
+            this.busquedaEnMatriz2DToolStripMenuItem.Click += new System.EventHandler(this.busquedaEnMatriz2DToolStripMenuItem_Click);
             // 
             // label2
             // 

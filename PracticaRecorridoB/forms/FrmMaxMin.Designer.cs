@@ -33,11 +33,13 @@
             this.label1 = new System.Windows.Forms.Label();
             this.tbNumeros = new System.Windows.Forms.TextBox();
             this.btnBuscarMaxMin = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.btnBuscarMaxMin);
             this.groupBox1.Controls.Add(this.tbNumeros);
             this.groupBox1.Controls.Add(this.label1);
@@ -69,18 +71,27 @@
             // 
             this.tbNumeros.Location = new System.Drawing.Point(37, 139);
             this.tbNumeros.Name = "tbNumeros";
-            this.tbNumeros.Size = new System.Drawing.Size(447, 26);
+            this.tbNumeros.Size = new System.Drawing.Size(434, 26);
             this.tbNumeros.TabIndex = 2;
             // 
             // btnBuscarMaxMin
             // 
-            this.btnBuscarMaxMin.Location = new System.Drawing.Point(491, 135);
+            this.btnBuscarMaxMin.Location = new System.Drawing.Point(477, 135);
             this.btnBuscarMaxMin.Name = "btnBuscarMaxMin";
-            this.btnBuscarMaxMin.Size = new System.Drawing.Size(75, 30);
+            this.btnBuscarMaxMin.Size = new System.Drawing.Size(89, 30);
             this.btnBuscarMaxMin.TabIndex = 3;
-            this.btnBuscarMaxMin.Text = "buscar";
+            this.btnBuscarMaxMin.Text = "Organizar";
             this.btnBuscarMaxMin.UseVisualStyleBackColor = true;
             this.btnBuscarMaxMin.Click += new System.EventHandler(this.btnBuscarMaxMin_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(88, 83);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(238, 20);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "Ejemplo: 8, 15, 4, 2, 25, 19, 3, 10";
             // 
             // FrmMaxMin
             // 
@@ -105,5 +116,6 @@
         private System.Windows.Forms.TextBox tbNumeros;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.RichTextBox rtbResultado;
+        private System.Windows.Forms.Label label2;
     }
 }

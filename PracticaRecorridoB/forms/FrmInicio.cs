@@ -44,5 +44,19 @@ namespace PracticaRecorridoB.forms
             FrmBusquedaOb busquedaOb = new FrmBusquedaOb();
             busquedaOb.ShowDialog();
         }
+
+        private void búsquedaDelValorMáximoYMínimoEnUnaListaDeEnterosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+            FrmMaxMin frmMaxMin = new FrmMaxMin();
+            frmMaxMin.ShowDialog();
+
+        }
+
+        private void busquedaEnMatriz2DToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmMatriz frmMatriz = new FrmMatriz();
+            frmMatriz.ShowDialog();
+        }
     }
 }
