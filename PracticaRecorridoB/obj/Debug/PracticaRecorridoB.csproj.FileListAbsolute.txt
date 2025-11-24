@@ -15,3 +15,4 @@ C:\Users\inmo\Desktop\ProgramacionEstructurada\PracticaRecorridoB\PracticaRecorr
 C:\Users\inmo\Desktop\ProgramacionEstructurada\PracticaRecorridoB\PracticaRecorridoB\obj\Debug\PracticaRecorridoB.forms.FrmBusquedaB.resources
 C:\Users\inmo\Desktop\ProgramacionEstructurada\PracticaRecorridoB\PracticaRecorridoB\obj\Debug\PracticaRecorridoB.FrmBusquedaL.resources
 C:\Users\inmo\Desktop\ProgramacionEstructurada\PracticaRecorridoB\PracticaRecorridoB\obj\Debug\PracticaRecorridoB.forms.FrmInicio.resources
+C:\Users\inmo\Desktop\ProgramacionEstructurada\PracticaRecorridoB\PracticaRecorridoB\obj\Debug\PracticaRecorridoB.forms.FrmBusquedaTxt.resources
