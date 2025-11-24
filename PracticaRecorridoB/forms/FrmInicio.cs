@@ -38,5 +38,11 @@ namespace PracticaRecorridoB.forms
             FrmBusquedaTxt busquedaTxt = new FrmBusquedaTxt();
             busquedaTxt.ShowDialog();
         }
+
+        private void búsquedaDeObjetosEnUnaColecciónToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmBusquedaOb busquedaOb = new FrmBusquedaOb();
+            busquedaOb.ShowDialog();
+        }
     }
 }

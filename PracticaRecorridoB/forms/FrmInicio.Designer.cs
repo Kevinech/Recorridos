@@ -97,6 +97,7 @@
             this.búsquedaDeObjetosEnUnaColecciónToolStripMenuItem.Name = "búsquedaDeObjetosEnUnaColecciónToolStripMenuItem";
             this.búsquedaDeObjetosEnUnaColecciónToolStripMenuItem.Size = new System.Drawing.Size(222, 20);
             this.búsquedaDeObjetosEnUnaColecciónToolStripMenuItem.Text = "Búsqueda de objetos en una colección";
+            this.búsquedaDeObjetosEnUnaColecciónToolStripMenuItem.Click += new System.EventHandler(this.búsquedaDeObjetosEnUnaColecciónToolStripMenuItem_Click);
             // 
             // búsquedaDelValorMáximoYMínimoEnUnaListaDeEnterosToolStripMenuItem
             // 

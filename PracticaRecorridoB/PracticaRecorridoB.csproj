@@ -55,6 +55,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Clases\Estudiantes.cs" />
+    <Compile Include="forms\FrmBusquedaOb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\FrmBusquedaOb.Designer.cs">
+      <DependentUpon>FrmBusquedaOb.cs</DependentUpon>
+    </Compile>
     <Compile Include="forms\FrmBusquedaTxt.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,6 +90,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="forms\FrmBusquedaB.resx">
       <DependentUpon>FrmBusquedaB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\FrmBusquedaOb.resx">
+      <DependentUpon>FrmBusquedaOb.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="forms\FrmBusquedaTxt.resx">
       <DependentUpon>FrmBusquedaTxt.cs</DependentUpon>
