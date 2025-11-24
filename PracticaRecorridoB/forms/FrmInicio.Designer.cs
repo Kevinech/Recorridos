@@ -90,6 +90,7 @@
             this.busquedaDeTextoEnUnaCadenaToolStripMenuItem.Name = "busquedaDeTextoEnUnaCadenaToolStripMenuItem";
             this.busquedaDeTextoEnUnaCadenaToolStripMenuItem.Size = new System.Drawing.Size(234, 20);
             this.busquedaDeTextoEnUnaCadenaToolStripMenuItem.Text = "Busqueda de texto dentro de una cadena";
+            this.busquedaDeTextoEnUnaCadenaToolStripMenuItem.Click += new System.EventHandler(this.busquedaDeTextoEnUnaCadenaToolStripMenuItem_Click);
             // 
             // búsquedaDeObjetosEnUnaColecciónToolStripMenuItem
             // 

@@ -33,6 +33,10 @@ namespace PracticaRecorridoB.forms
 
         }
 
-
+        private void busquedaDeTextoEnUnaCadenaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmBusquedaTxt busquedaTxt = new FrmBusquedaTxt();
+            busquedaTxt.ShowDialog();
+        }
     }
 }
